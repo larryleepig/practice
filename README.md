@@ -1,4 +1,4 @@
 # practice
 use to practice git
 
-c++ for datastruct practice AAD
+c++ for datastruct practice 
