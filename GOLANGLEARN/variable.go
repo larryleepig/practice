@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-var x, y, z int = 1, 2, 3
-var c, python, java = true, false, "no!"
+var x, y, z int
+var python = "good language"
 
 func main() {
     x := 34
-    fmt.Println(x, y, z)
+    fmt.Println(x, y, z, python)
 
 }
