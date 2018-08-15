@@ -29,7 +29,7 @@ func main() {
 	x := 34
 	fmt.Println(x, y, z, python)
 	// for type
-	var i int = 0
+	var i int
 	for ; i < 3; i++ {
 		fmt.Println(i, "hello, golang")
 	}
