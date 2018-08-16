@@ -26,10 +26,10 @@ func main() {
 		}
 		fmt.Println("d")
 	}()
-	f()
+	fu()
 }
 
-func f() {
+func fu() {
 	fmt.Println("a")
 	panic("hello") //panic 以下的code不會執行 中間的值會傳到recover()
 	fmt.Println("b")
